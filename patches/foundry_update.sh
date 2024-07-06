@@ -36,7 +36,7 @@ then
     echo -e "${GREEN}Node.js confirmed running v14 or greater${NC}"
 else
     echo -e "${RED}ERROR: Foundry VTT 0.8 requires Node.js version 14 or greater."
-    echo -e "${YELLOW}Please visit \e[4mhttps://github.com/cat-box/aws-foundry-ssl/wiki/Patches${YELLOW} to update Node.js first.${NC}"
+    echo -e "${YELLOW}Please visit \e[4mhttps://github.com/rarewt/aws-foundry-ssl/wiki/Patches${YELLOW} to update Node.js first.${NC}"
     echo -e "${YELLOW}Update unsuccessful. Quitting...${NC}"
     exit
 fi
